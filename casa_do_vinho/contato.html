@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Casa do Vinho - Contatos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Montserrat:400,700|Roboto&display=swap" rel="stylesheet">
+  <link rel = "shortcut icon" type = "imagem/x-icon" href = "images/icon.png"/>
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/modify.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+  
+    <!-- MODAL LOGIN -->
+  <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Login</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="php/login.php" method="post" style="text-align: center;">
+                          <div class="row" style="margin: auto;">
+                              <div class="modal-form-modify">
+                                  <label for="email">E-mail</label>
+                                  <input type="text" id="email" name="email" class="form-control form-control-lg">
+                              </div>
+                          </div>
+                          <div class="row" style="margin: auto;">
+                              <div class="modal-form-modify">
+                                  <label for="senha">Senha</label>
+                                  <input type="password" name="senha" id="senha"  cols="30" rows="10" class="form-control">
+                              </div>
+                          </div>
+
+                          <div class="row" style="margin: auto;">
+                              <div class="col-12" style="margin-top: 10px; ">
+                                  <input type="submit" value="Login" class="btn btn-primary py-3 px-5">
+                              </div>
+                             <p class="modal-p-modify">Ainda não tem cadastro?<a href="cadastrar.php">cadastre-se aqui</a></p>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    
+    <div class="header-top">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 text-center">
+            <a href="index.html" class="site-logo">
+              <img src="images/logo.png" alt="Image" class="img-fluid">
+            </a>
+          </div>
+          <a href="index.html" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                class="icon-menu h3"></span></a>
+        </div>
+      </div>
+      
+
+
+      
+      <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
+
+      <div class="container">
+        <div class="d-flex align-items-center">
+          
+          <div class="mx-auto">
+            <nav class="site-navigation position-relative text-left" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mx-auto d-none pl-0 d-lg-block border-none">
+                <li><a href="index.php" class="nav-link text-left">Home</a></li>
+                <li><a href="sobre.html" class="nav-link text-left">Sobre</a></li>
+                <li><a href="cadastrar.php" class="nav-link text-left">Cadastrar</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#myModal" class="nav-link text-left">Login</a></li>
+                <li class="active"><a href="contato.html" class="nav-link text-left">Contato</a></li>
+              </ul>                                                                                                                                                                                                                                                                                         
+            </nav>
+
+          </div>
+         
+        </div>
+      </div>
+
+    </div>
+    
+    </div>
+
+    
+    
+
+    <div class="hero-2" style="background-image: url('images/5.jpg');">
+     <div class="container">
+        <div class="row justify-content-center text-center align-items-center">
+          <div class="col-md-8">
+            <span class="sub-title">Comunique-se Conosco</span>
+            <h2>Contato</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="section-title mb-5">
+              <h2>Dados de Contato</h2>
+            </div>
+            <form action="php/insert_contato.php" method="post">
+              
+                  <div class="row">
+                      <div class="col-md-6 form-group">
+                          <label for="fname">Primeiro Nome</label>
+                          <input type="text" id="pnome" name="pnome" class="form-control form-control-lg">
+                      </div>
+                      <div class="col-md-6 form-group">
+                          <label for="lname">Ultimo Nome</label>
+                          <input type="text" id="uname" name="unome" class="form-control form-control-lg">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6 form-group">
+                          <label for="eaddress">E-mail</label>
+                          <input type="text" id="email" name="email" class="form-control form-control-lg">
+                      </div>
+                      <div class="col-md-6 form-group">
+                          <label for="tel">Telefone</label>
+                          <input type="text" id="tel" name="tel" class="form-control form-control-lg">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12 form-group">
+                          <label for="msg">Mensagem</label>
+                          <textarea name="msg" id="msg"  cols="30" rows="10" class="form-control"></textarea>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-12">
+                          <input type="submit" value="Enviar Mensagem" class="btn btn-primary py-3 px-5">
+                      </div>
+                  </div>
+              
+            </form>
+          </div>
+          
+        </div>
+
+        
+      </div>
+    </div>
+
+    <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.940537152911!2d-60.05774505188374!3d-3.1104353752397293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c0fdc1b7975b9%3A0x1855a1535d298a86!2sBeco%20S%C3%A3o%20Lucas%20-%20Compensa%2C%20Manaus%20-%20AM%2C%2069035-799!5e0!3m2!1spt-BR!2sbr!4v1585107503703!5m2!1spt-BR!2sbr" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    
+    <div class="footer">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="social-icons">
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-youtube"></span></a>
+              <a href="#"><span class="icon-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Dieitos Reservados | Desenvolvido por <a href="https://github.com/Matheus-Souza710" target="_blank" >Matheus Souza</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+  <!-- .site-wrap -->
+
+
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#ff5e15"/></svg></div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+
+
+
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
