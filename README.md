@@ -1,4 +1,4 @@
-# casa_do_vinho
+# Casa do Vinho
 Site de uma empresa fictícia casa do vinho, feito em PHP 
 
 Projeto feito em PHP
